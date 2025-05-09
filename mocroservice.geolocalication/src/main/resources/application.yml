@@ -1,0 +1,5 @@
+# Deshabilita la configuración de la base de datos
+spring.datasource.url=
+spring.datasource.driver-class-name=
+spring.datasource.username=
+spring.datasource.password=
