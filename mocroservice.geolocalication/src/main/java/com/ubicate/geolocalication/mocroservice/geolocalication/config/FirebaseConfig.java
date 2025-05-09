@@ -18,7 +18,7 @@ public class FirebaseConfig {
     public void initialize() {
         try {
             // Carga el archivo JSON con las credenciales de Firebase desde el classpath
-            InputStream serviceAccount = new ClassPathResource("ubicate-3900d-firebase-adminsdk-fbsvc-e200d7139b.json").getInputStream();
+            InputStream serviceAccount = new ClassPathResource("").getInputStream();
 
             // Configura las opciones de Firebase
             FirebaseOptions options = new FirebaseOptions.Builder()
